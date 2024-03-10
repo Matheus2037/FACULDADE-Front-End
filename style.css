@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.message-container {
+    margin-bottom: 20px;
+}
+
+.chat{
+    width: 100%; 
+    height: 500px; 
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    overflow-y: scroll;
+}
+
+.atendente {
+    background-color: #e5e5e5;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.voce {
+    background-color: #dcf8c6;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: right;
+}
+.atendente time{
+    font-size: 0.8em;
+    color: #666;
+    margin-top: 0.5em;
+    display: block;
+    text-align: right;
+  }
+.voce time{
+font-size: 0.8em;
+color: #666;
+margin-top: 0.5em;
+display: block;
+text-align: left;
+}
